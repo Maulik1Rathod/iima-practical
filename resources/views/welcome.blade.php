@@ -71,7 +71,7 @@
           <div class="row">
             <form action={{ route('storeData') }} method="POST">
                 @csrf
-                <div class="form-group">
+<!--                 <div class="form-group">
                     <label for="exampleInputEmail1">Select Student</label>
                     <select class="form-select form-control" name="student" aria-label="Default select example">
                         <option selected>Open this select menu</option>
@@ -89,7 +89,7 @@
                             <option value="{{ $v->id }}">{{ $v->name }}</option>
                         @endforeach
                     </select>
-                </div>
+                </div> -->
 
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
